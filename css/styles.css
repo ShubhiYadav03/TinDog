@@ -1,0 +1,170 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bolder;
+}
+h2{   
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Navigation-Bar */
+.navbar{
+    padding:0 0 4.5em;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-items{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/* Main Title */
+
+#title h1{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+#title .container-fluid{
+    padding: 2% 15%;
+    padding-bottom: 100px;
+    background-color: #ff4c68;
+    text-align: left;
+}
+
+.downloadBtn{
+    margin: 5% 3% 5% 0%;
+}
+.phoneImg{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;  
+    right: 20%;
+}
+/* Features */
+
+#features{
+    background-color: #fff;
+    position: relative;
+    line-height: 1.5; 
+}
+
+.ft{
+   padding: 0 2%;
+    margin: 4% 0;
+}
+
+#features h3{
+    font-size: 1.5rem;   
+    padding-top: 40px;
+    font-weight: bold;
+}
+#features p{
+    color: #8f8f8f;
+    margin-top: 20px;
+}
+#features i{
+    color: #ef8172;
+    size: 40%;
+}
+#features i:hover{
+    color: #ff4c68;
+    transition: 0.1s;
+    transform: scale(1.1);
+    transform: translateY(-3px); 
+}
+
+/* Testimonials */
+
+#testimonials{ 
+    background-color: #ef8172;
+    color: white;
+}
+
+#testimonials img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+#press img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+.pricing-col{
+    padding: 3% 2%;  
+}
+
+.card-header{
+background-color: rgb(239, 129, 114,0.2);
+color: rgb(87, 86, 86);
+}
+.card:hover{
+    box-shadow: -1px 1px 10px -4px rgba(239, 129, 114,1);
+    -webkit-box-shadow: -1px 1px 10px -4px rgba(239, 129, 114,1);
+    -moz-box-shadow: -1px 1px 10px -4px rgba(239, 129, 114,1);
+    transform: scale(1.01);
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+#pricing button{
+    margin-top: auto;
+}
+
+
+/* CTA */
+#cta{
+    color: #fff;
+    background-color: #ff4c68;
+}
+#cta h3{
+        font-size: 2.5rem;   
+}
+#footer{
+    padding: 5% 10%;
+    background-color: #fff;   
+    font-size: small;
+}
+#footer i{
+    padding: 10px;
+}
+
+/* Mobile Media queries */
+
+@media(max-width:995px){
+#title{
+text-align: center;
+}
+.phoneImg{
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+}
+#features{  
+    position: static;  
+}
+}
